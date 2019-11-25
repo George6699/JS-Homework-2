@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planning</title>
+    <link rel="stylesheet" href="./css/font-awesome.css">
+</head>
+<body>
+
+    <style>
+    body{
+        text-align: center;
+    }
+    span{
+        color: red;
+    }
+    li{
+        list-style-type: none;
+    }
+    </style>
+    <div id="todo">
+        <h1>List of tasks</h1>
+        <input id="input" type="text" placeholder="input task" value="To do my homework">
+        <input id="inputDate" type="datetime" placeholder="input date" value="2020 01 23">
+        <ul id="ul" class="todos">
+            <li><span><i class="fas fa-trash-alt"></i></span>Plan your life.</li>
+            <li><span><i class="fas fa-trash-alt"></i></span>Plan your life.</li>
+        </ul>
+        <div id="buttons">
+            <button class="clear">Delete</button>
+            <button class="save">Save</button>
+        </div>
+    </div>
+    <script src="./js/all.js"></script>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
